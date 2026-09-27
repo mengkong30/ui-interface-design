@@ -1,0 +1,4 @@
+interface:
+  display_name: "ui界面设计"
+  short_description: "从视觉方向到图标组件、状态补齐、圆角适配与导航导图的成套界面设计"
+  default_prompt: "使用 $ui-interface-design 设计或优化当前界面，沿用已确认风格，检查真实尺寸下的布局、组件一致性与设备边界，并交付可编辑成果。"
