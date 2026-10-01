@@ -1,7 +1,7 @@
 ---
 name: ui-interface-design
 metadata:
-  version: "1.0.0"
+  version: "1.0.2"
 description: 设计、迭代和检查成套 UI 界面，适用于手表、小屏设备、移动端及已有 Figma 项目的视觉统一、图标组件、数据图表、状态补齐、屏幕适配和页面关系图整理。强调真实尺寸验证与可编辑组件交付；不用于只讨论设计理论或纯后端任务。
 ---
 
@@ -33,6 +33,7 @@ description: 设计、迭代和检查成套 UI 界面，适用于手表、小屏
 
 - 设计或复查布局、图标、图表、菜单与屏幕边界：读 [视觉与验收规则](references/visual-system.md)。
 - 在 Figma 中实现、替换组件、使用本地桥接或整理导航：读 [可编辑交付与工具经验](references/figma-workflow.md)。
+- 整理多张参考、重做 App 图标、批量居中或建立新旧版本分区：读 [参考整合与批量迭代](references/iteration-lessons.md)。
 - 继续这类运动科技风手表，或需要数值起点：读 [本次手表案例](references/watch-case.md)。其中数值与配色仅适用于该方向，不是通用标准。
 
 ## 迭代与复查

@@ -1,6 +1,6 @@
 # ui界面设计
 
-**版本 1.0.0 · Codex Skill · 中文说明 · MIT License**
+**版本 1.0.2 · Codex Skill · 中文说明 · MIT License**
 
 从真实的小屏界面迭代中提炼的 UI 设计技能，帮助设计方向收敛、成套界面统一、图标与组件制作、数据呈现、圆角屏幕适配和页面关系图整理。
 
@@ -19,7 +19,7 @@
 
 ## 下载与安装
 
-从 [v1.0.0 Release](https://github.com/mengkong30/ui-interface-design/releases/tag/v1.0.0) 下载 `ui-interface-design-v1.0.0.zip`，并可使用同页的 `SHA256SUMS.txt` 核对文件完整性。校验和不能单独证明发布者身份。
+从 [v1.0.2 Release](https://github.com/mengkong30/ui-interface-design/releases/tag/v1.0.2) 下载 `ui-interface-design-v1.0.2.zip`，并可使用同页的 `SHA256SUMS.txt` 核对文件完整性。校验和不能单独证明发布者身份。
 
 将 ZIP 中的 `ui-interface-design` 文件夹解压至个人技能目录。推荐结构：
 
@@ -40,13 +40,13 @@
 ```powershell
 # Windows PowerShell；目标已存在时先备份，不要直接覆盖
 $skillRoot = if ($env:CODEX_HOME) { Join-Path $env:CODEX_HOME 'skills' } else { Join-Path $env:USERPROFILE '.codex/skills' }
-git clone --branch v1.0.0 --depth 1 https://github.com/mengkong30/ui-interface-design.git (Join-Path $skillRoot 'ui-interface-design')
+git clone --branch v1.0.2 --depth 1 https://github.com/mengkong30/ui-interface-design.git (Join-Path $skillRoot 'ui-interface-design')
 ```
 
 ```bash
 # macOS / Linux；目标必须尚不存在
 skill_root="${CODEX_HOME:-$HOME/.codex}/skills"
-git clone --branch v1.0.0 --depth 1 https://github.com/mengkong30/ui-interface-design.git "$skill_root/ui-interface-design"
+git clone --branch v1.0.2 --depth 1 https://github.com/mengkong30/ui-interface-design.git "$skill_root/ui-interface-design"
 ```
 
 安装后在技能列表中查找 **ui界面设计**。若当前会话尚未发现新技能，重新开启会话或使用宿主提供的刷新机制；不同宿主的发现行为可能不同。
@@ -87,6 +87,7 @@ git clone --branch v1.0.0 --depth 1 https://github.com/mengkong30/ui-interface-d
 - `SKILL.md`：入口与任务路由。
 - `references/visual-system.md`：排版、图标、图表和设备边界验收。
 - `references/figma-workflow.md`：可编辑交付、工具限制与导航关系图。
+- `references/iteration-lessons.md`：参考整合、App 图标分层、批量对齐、历史版保护与数据页构图。
 - `references/watch-case.md`：手表案例，通用任务按需读取。
 - `agents/openai.yaml`：中文显示名称与默认提示。
 - `scripts/validate.py`：离线、只读的包结构校验。

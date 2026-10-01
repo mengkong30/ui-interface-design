@@ -8,7 +8,8 @@ def validate(root):
     required = ["SKILL.md", "VERSION", "README.md", "LICENSE", "DISCLAIMER.md",
                 "CHANGELOG.md", "agents/openai.yaml", "docs/CONFIGURATION.md",
                 "docs/USAGE.md", "references/visual-system.md",
-                "references/figma-workflow.md", "references/watch-case.md"]
+                "references/figma-workflow.md", "references/watch-case.md",
+                "references/iteration-lessons.md"]
     for name in required:
         if not (root / name).is_file():
             raise ValueError("Missing file: " + name)
